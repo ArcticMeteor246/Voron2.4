@@ -31,7 +31,7 @@ To revert back to main branch
 git switch -
 ```
 
-Note for the pid_v implementation that might be in klipper. Using something like velocity pid seems to make it less good at disturbences but more stable overall. Could be interesting to see an implementation of other PID algos as well.
+Note for the pid_v implementation that might be in klipper. Using something like velocity [pid](https://taketake2.com/N23_en.html) seems to make it less good at disturbences but more stable overall. Could be interesting to see an implementation of other PID algos as well.
 - I-PD
 - PI-D
 - 2-pid [Omron](https://assets.omron.eu/downloads/publication/en/v2/2-pid_white_paper_en.pdf) Weightet error/measurement probably
