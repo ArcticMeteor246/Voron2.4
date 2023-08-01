@@ -20,3 +20,13 @@ To do:
   - PLA []
   - PETG []
   - PETG refillament []  
+
+
+Use the following to checkout pullrequests 
+```Bash
+git fetch upstream pull/ID/head && git checkout FETCH_HEAD
+```
+To revert back to main branch
+```Bash
+git switch -
+```
