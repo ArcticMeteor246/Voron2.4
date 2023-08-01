@@ -30,3 +30,10 @@ To revert back to main branch
 ```Bash
 git switch -
 ```
+
+Note for the pid_v implementation that might be in klipper. Using something like velocity pid seems to make it less good at disturbences but more stable overall. Could be interesting to see an implementation of other PID algos as well.
+- I-PD
+- PI-D
+- 2-pid [Omron](https://assets.omron.eu/downloads/publication/en/v2/2-pid_white_paper_en.pdf) Weightet error/measurement probably
+
+Different autotuning alogs would also be cool, not only the Sigler nichols quarter wave but others as well
