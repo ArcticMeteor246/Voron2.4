@@ -35,5 +35,6 @@ Note for the pid_v implementation that might be in klipper. Using something like
 - I-PD
 - PI-D
 - 2-pid [Omron](https://assets.omron.eu/downloads/publication/en/v2/2-pid_white_paper_en.pdf) Weightet error/measurement probably
+- RRF feedforward with fan speed. [RRF discusion](https://forum.duet3d.com/topic/19761/new-heater-tuning-algorithm/51)
 
 Different autotuning alogs would also be cool, not only the Sigler nichols quarter wave but others as well
